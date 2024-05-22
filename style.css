@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Cor de fundo entre branco e preto */
+    color: #333; /* Cor de texto */
+}
+
+.container {
+    width: 80%; /* Largura centralizada */
+    margin: 0 auto; /* Centralizar na página */
+    padding: 20px 0; /* Espaçamento interno entre as seções */
+}
+
+h1 {
+    font-size: 2em; /* Tamanho do título principal */
+    color: #333; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamanho dos subtítulos */
+    color: #333; /* Cor dos subtítulos */
+    margin-bottom: 10px; /* Espaçamento abaixo dos subtítulos */
+}
+
+.img {
+    max-width: 700px; /* Define a largura máxima como 100% do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Evitar espaços em branco abaixo das imagens */
+     /* Centralizar as imagens horizontalmente */
+    margin-bottom: 10px; /* Espaçamento abaixo das imagens */
+    border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave às imagens */
+}
+
+p {
+    font-size: 1em; /* Tamanho do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo dos textos */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
+.dark-mode {
+    background-color: #000000; 
+    color: #f8f8f8; 
+}
